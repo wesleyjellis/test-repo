@@ -1,0 +1,25 @@
+---
+version: 1
+component:
+  name: Test Opslevel Yaml
+  type: service
+  lifecycle: generally_available
+  tier: tier_1
+  system: web
+  product: Retail Website
+  owner: order_management_team
+  language: Ruby
+  framework: Rails
+  description: Allows users to add/remove products in their virtual shopping carts
+    prior to placing an order.
+  aliases:
+  - test-op-level-yaml
+  tags:
+  - key: db
+    value: mysql
+  - key: kafka-topic
+    value: cart-additions
+  repositories:
+  - name: wesleyjellis/test-repo
+    provider: github
+    display_name: Opslevel Test Yaml Service Code
