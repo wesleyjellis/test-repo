@@ -12,8 +12,8 @@ component:
   framework: Rails
   description: Allows users to add/remove products in their virtual shopping carts
     prior to placing an order.
+  tags:
   aliases:
-  - test-op-level-yaml
   repositories:
   - name: wesleyjellis/test-repo
     provider: github
