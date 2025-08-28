@@ -13,6 +13,10 @@ component:
   description: Allows users to add/remove products in their virtual shopping carts
     prior to placing an order.
   tags:
+  - key: db
+    value: mysql
+  - key: kafka-topic
+    value: cart-additions
   aliases:
   repositories:
   - name: wesleyjellis/test-repo
